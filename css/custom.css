@@ -1,0 +1,83 @@
+/*************************************************************************
+ * Your custom CSS file
+ *************************************************************************/
+
+.col-news{-ms-flex:0 0 66%;flex:0 0 66%;max-width:75%;align-content:flex-end}
+ 
+.custom-dropdown {
+  width: 240px;
+}
+
+.custom-textbox {
+  width: 240px;
+}
+
+#dialog-1,
+#dialog-2,
+#dialog-3,
+#dialog-4,
+#share-dialog {
+  display: none;
+}
+
+#share-url {
+  width: 100%;
+  -webkit-touch-callout: default !important;
+  -webkit-user-select: text !important;
+  -khtml-user-select: text !important;
+  -moz-user-select: text !important;
+  -ms-user-select: text !important;
+  user-select: text !important;
+}
+
+#share-url-copy-prompt {
+  display: none;
+  color: #007bff;
+}
+
+/* Blocks */
+.site-blocks-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-position: center center; }
+  .site-blocks-cover.overlay {
+    position: relative; }
+    .site-blocks-cover.overlay:before {
+      position: absolute;
+      content: "";
+      left: 0;
+      bottom: 0;
+      right: 0;
+      top: 0;
+      background: rgba(0, 0, 0, 0.4); }
+  .site-blocks-cover .player {
+    position: absolute;
+    bottom: -250px;
+    width: 100%; }
+  .site-blocks-cover, .site-blocks-cover .row {
+    min-height: 500px;
+    height: calc(100vh - 73px); }
+  .site-blocks-cover.inner-page-cover, .site-blocks-cover.inner-page-cover .row {
+    min-height: 500px;
+    height: calc(30vh); }
+  .site-blocks-cover h2, .site-blocks-cover h3, .site-blocks-cover h4, .site-blocks-cover h5 {
+    color: #fff; }
+  .site-blocks-cover h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #fff; }
+    @media (min-width: 768px) {
+      .site-blocks-cover h1 {
+        font-size: 3rem; } }
+  .site-blocks-cover p {
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.5; }
+  .site-blocks-cover .intro-text {
+    font-size: 16px;
+    line-height: 1.5; }
+  @media (max-width: 991.98px) {
+    .site-blocks-cover .display-1 {
+      font-size: 3rem; } }
+      

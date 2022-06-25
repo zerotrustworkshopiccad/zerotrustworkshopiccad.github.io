@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Zero Trust Hardware Architectures Workshop@ICCAD 2022</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/menu.js"></script>
+  <style>
+    .menu-index {
+      color: rgb(255, 255, 255) !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
+    }
+  </style>
+</head>
+
+<body>
+  <!-------------------------------------------------------------------------------------------->
+  <!--Menu and Banner-->
+  <div class="menu-container"></div>
+  <div class="site-blocks-cover overlay inner-page-cover" style="background-image: url('image/banner.jpeg');"
+  data-stellar-background-ratio="0.5">
+  <div class="container">
+     <div class="row align-items-center justify-content-center">
+         <div class="col-md-10 text-center" data-aos="fade-up">
+         <p></p>
+             <h1>Zero Trust Hardware Architectures Workshop</h1>
+             <hr>
+             <h5>Co-located with 2022 <a href="https://iccad.com/">International Conference on Computer-Aided Design (ICCAD)</a> </h5>
+             <h4>Thursday, November 3, 2022</h4>
+             <h4>San Diego, California, USA</h4>
+             <h4>Hybrid: In-Person and Virtual Workshop</h4>
+             <p></p>
+         </div>
+     </div>
+  </div>
+  </div> 
+  <!-------------------------------------------------------------------------------------------->
+  <div class="content-container">
+    <div class="content">
+      <div class="content-table flex-column">
+        <div class="flex-row">
+          <!--Start Overview-->
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin">Overview</h2>
+            <hr>
+            <p class="text text-justify">
+              In recent times, there has been a major push and urgency to adopt the zero-trust model for cybersecurity. The zero trust model is based on the principle of “never trust, always verify” and is aimed at eliminating all implicit trust in a system. While adopting a zero-trust model for network security generally involves authenticating, authorizing and continuously validating the credentials of users in a network, these measures alone are not enough to create a true zero trust based architecture. The underlying hardware needs to be trusted and secured as well. Thus, novel approaches for building zero trust architectures, from systems all the way down to silicon, is one of the big challenges for next generation hardware system design. 
+            </p>
+            <p class="text text-justify">
+              Traditionally, research on establishing trust and security in hardware has primarily focused on the host and its associated memory subsystems. These include principles of trusted execution environments, silicon roots of trust, Trusted Platform Modules, encryption at rest etc. However, in modern system architectures such as edge/cloud computing, composable systems and chiplet based integrated circuits, the realm of trust needs to be extended beyond the host system and incorporate many hardware devices and IPs. In view of threats such as compromised supply chain integrity, counterfeit chips, hardware trojan implants, malicious firmware, malware, etc., it is important to establish trust in hardware components and to communicate trust between different components of a system. The different kinds of communication could range from that between different IPs inside a SoC, between a host and its attached peripherals, as well as between chiplets inside a multi-chip module. Trust also needs to be established and revoked in a dynamic manner, with the ability to handle large number of subcomponents in the design. Thus, a new set of protocols that can work to establish trust and security in these new types of system architectures has become necessary. While some of these protocols are being developed as industry and government standards, large-scale effort is required to bring them to adoption. It is equally important to develop open source and verifiable hardware designs that can bring security without compromising system parameters such as performance or functionality. The focus of this workshop will be on all aspects of security and trust required to create zero-trust hardware architectures for heterogeneous computing systems. 
+            </p>
+          </div>
+          </div>
+          <!--Start Topics-->
+          <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin">Topics of interest</h2>
+            <hr>
+            <p class="text">The areas of interest include but are not limited to: </p>
+            <ul>
+              <li>Roots of Trust and Chain of Trust in hardware</li>
+              <li>Link encryption and secure communication channels</li>
+              <li>Extending Trusted execution environments to peripherals</li>
+              <li>Authentication, Attestation and Encryption in Chiplet based designs</li>
+              <li>Authentication, Attestation and Encryption in Composable system architectures</li>
+              <li>Hardware based access control and monitoring</li>
+              <li>Measuring trust in hardware and systems</li>
+              <li>Hardware-based security techniques in edge/cloud systems</li>
+            </ul>
+          </div>
+          </div>
+          <!--Start CFP-->
+          <div class="flex-row">
+            <div class="flex-item flex-column">
+              <h2 class="add-top-margin">Call for Papers</h2>
+              <hr>
+              <p class="text">We welcome three types of submissions: </p>
+              <ul>
+                <li>Technical papers with evaluation results</li>
+                <li>Position papers on directions for research and development</li>
+                <li>Review papers </li>
+              </ul>
+              <p class="text">Each paper must be 4-6 pages. All accepted papers will be invited to present the work in the workshop</p>
+            </div>
+            </div>
+        </div>
+        <!-------------------------------------------------------------------------------------------->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <p>© Zero Trust Hardware Architectures Workshop@ICCAD, 2022</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
