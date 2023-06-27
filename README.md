@@ -1,2 +1,2 @@
-# zerotrustworkshopiccad.github.io
-<a href="https://zerotrustworkshopiccad.github.io">ZTHA 2022: Zero Trust Hardware Architectures Workshop@ICCAD 2022 Site</a>
+# fastmachinelearning.org/iccad2023
+<a href="https://fastmachinelearning.org/iccad2023">Fast Machine Learning for Science Workshop @ ICCAD 2023</a>
