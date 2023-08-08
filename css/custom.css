@@ -81,3 +81,8 @@
     .site-blocks-cover .display-1 {
       font-size: 3rem; } }
       
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
